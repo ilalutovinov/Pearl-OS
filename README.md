@@ -1,4 +1,4 @@
-<h1 align="center">Welcome to the project PlayVia! <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="40"></h1>
+<h1 align="center">Welcome to the project Pearl OS! <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="40"></h1>
 
 <p align="center"><img src="https://www.gifcen.com/wp-content/uploads/2022/01/hacker-gif-5.gif" width="600" height="300"  /></p>
 
