@@ -1,6 +1,6 @@
 <h1 align="center">Welcome to the project Pearl OS! <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="40"></h1>
 
-<p align="center"><img src="[https://www.gifcen.com/wp-content/uploads/2022/01/hacker-gif-5.gif](https://i.gifer.com/758R.gif)" width="600" height="300"  /></p>
+<p align="center"><img src="<div style="padding-top:56.250%;position:relative;"><iframe src="https://gifer.com/embed/758R" width="100%" height="100%" style='position:absolute;top:0;left:0;' frameBorder="0" allowFullScreen></iframe></div><p><a href="https://gifer.com">через GIFER</a></p>" width="600" height="300"  /></p>
 
 # Playvia: A Platform for Games and Creative Community
 
