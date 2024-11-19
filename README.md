@@ -5,7 +5,7 @@
 
 <br />
 
-# Pearl OS: A Platform for Games and Creative Community
+# Project: Peral OS - Arduino UNO Integration with Raspberry Pi
 
 
 ## :video_game: About Playvia
