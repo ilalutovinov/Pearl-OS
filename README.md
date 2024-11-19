@@ -70,49 +70,49 @@
 
 ## Project structure
 ```bash
-Pearl OS/                        # Главная папка проекта
+Pearl OS/ # Main project folder
 │
-├── templates/                    # Папка для HTML-шаблонов
-│   ├── accounts/                 # Шаблоны для приложения аккаунтов
-│   │   ├── create-account.html   # Страница регистрации
-│   │   └── login.html            # Страница логина
-│   │
-│   ├── pages/                    # Папка для отдельных статических страниц
-│   │   ├── 404.html              # Страница ошибки 404
-│   │   ├── blank.html            # Пустая страница
-│   │   ├── buttons.html          # Страница с кнопками
-│   │   ├── cards.html            # Страница с карточками
-│   │   ├── charts.html           # Страница с графиками
-│   │   ├── forms.html            # Страница с формами
-│   │   ├── modals.html           # Страница с модальными окнами
-│   │   └── tables.html           # Страница с таблицами
-│   │
-│   └── index.html                # Главная страница
+├── templates/ # Folder for HTML templates
+│ ├── accounts/ # Templates for the accounts application
+│ │ ├── create-account.html # Registration page
+│ │ └── login.html # Login page
+│ │
+│ ├── pages/ # Folder for individual static pages
+│ │ ├── 404.html # Error page 404
+│ │ ├── blank.html # Blank page
+│ │ ├── buttons.html # Page with buttons
+│ │ ├── cards.html # Page with cards
+│ │ ├── charts.html # Page with charts
+│ │ ├── forms.html # Page with forms
+│ │ ├── modals.html # Page with modal windows
+│ │ └── tables.html # Page with tables
+│ │
+│ └── index.html # Main page
 │
-├── static/                       # Папка для статических файлов
-│   ├── assets/                   # Статические ресурсы (CSS, JS, изображения)
-│   │   ├── css/                  # CSS файлы
-│   │   │   ├── tailwind.css      # Основной CSS файл
-│   │   │   └── tailwind.output.css # Скомпилированный CSS файл
-│   │   │
-│   │   ├── js/                   # JS файлы
-│   │   │   ├── charts-bars.js    # Скрипт для диаграмм в виде столбцов
-│   │   │   ├── charts-lines.js   # Скрипт для линейных диаграмм
-│   │   │   └── charts-pie.js     # Скрипт для круговых диаграмм
-│   │   │
-│   │   └── img/                  # Изображения для проекта
-│   │       ├── login-office.jpeg      # Изображение для страницы логина
-│   │       ├── create-account-office.jpeg # Изображение для страницы регистрации
-│   │       └── dashboard.png     # Изображение для панели управления
+├── static/ # Folder for static files
+│ ├── assets/ # Static resources (CSS, JS, images)
+│ │ ├── css/ # CSS files
+│ │ │ ├── tailwind.css # Main CSS file
+│ │ │ └── tailwind.output.css # Compiled CSS file
+│ │ │
+│ │ ├── js/ # JS files
+│ │ │ ├── charts-bars.js # Script for bar charts
+│ │ │ ├── charts-lines.js # Script for line charts
+│ │ │ └── charts-pie.js # Script for pie charts
+│ │ │
+│ │ └── img/ # Images for the project
+│ │ ├── login-office.jpeg # Image for login page
+│ │ ├── create-account-office.jpeg # Image for registration page
+│ │ └── dashboard.png # Image for control panel
 │
-├── dashboard/                    # Приложение для основной панели управления
-│   ├── __init__.py               # Инициализация приложения
-│   ├── settings.py               # Настройки проекта
-│   ├── urls.py                   # Главная конфигурация URL-ов
-│   ├── wsgi.py                   # Для деплоя через WSGI
-│   └── asgi.py                   # Для асинхронного деплоя
+├── dashboard/ # Application for main control panel
+│ ├── __init__.py # Application initialization
+│ ├── settings.py # Project settings
+│ ├── urls.py # Main URL configuration
+│ ├── wsgi.py # For WSGI deployment
+│ └── asgi.py # For asynchronous deploy
 │
-├── manage.py                     # Скрипт для управления проектом (миграции, запуск сервера и т.п.)
+├── manage.py # Script for project management (migrations, server launch, etc.)
 
 ```
 ## Quick start
