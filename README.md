@@ -68,7 +68,53 @@
 - Automation and real-time device status monitoring.
 - A flexible system supporting extensions and the addition of new sensors or actuators.
 
+## Quick start
 
+> 👉 Download the code  
+
+```bash
+$ git clone https://github.com/creativetimofficial/soft-ui-dashboard-django.git
+$ cd soft-ui-dashboard-django
+```
+
+<br />
+
+> 👉 Install modules via `VENV`  
+
+```bash
+$ virtualenv env
+$ source env/bin/activate
+$ pip install -r requirements.txt
+```
+
+<br />
+
+> 👉 Set Up Database
+
+```bash
+$ python manage.py makemigrations
+$ python manage.py migrate
+```
+
+<br />
+
+> 👉 Create the Superuser
+
+```bash
+$ python manage.py createsuperuser
+```
+
+<br />
+
+> 👉 Start the app
+
+```bash
+$ python manage.py runserver
+```
+
+At this point, the app runs at `http://127.0.0.1:8000/`. 
+
+<br />
 
 Project structure
 ```bash
