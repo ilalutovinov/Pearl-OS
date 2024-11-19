@@ -25,6 +25,8 @@
 
 ## System Architecture
 
+![Без названия (49)](documents/Без%20названия%20(49).png)
+
 - **Raspberry Pi** will act as the central hub of the system, processing data, providing a web interface, and controlling all connected devices.
   
 - **Arduino UNO** will be used to collect data from sensors and control actuators (e.g., relays for managing outlets, lights, and other devices).
