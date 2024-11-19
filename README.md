@@ -25,7 +25,7 @@
 
 ## System Architecture
 
-![Без названия (49)](documents/Без%20названия%20(49).png)
+![Exchange.png)](Documents/Exchange.png)
 
 - **Raspberry Pi** will act as the central hub of the system, processing data, providing a web interface, and controlling all connected devices.
   
