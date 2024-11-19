@@ -73,8 +73,8 @@
 > 👉 Download the code  
 
 ```bash
-$ git clone https://github.com/creativetimofficial/soft-ui-dashboard-django.git
-$ cd soft-ui-dashboard-django
+$ https://github.com/ilalutovinov/Pearl-OS.git
+$ cd Pearl-OS 
 ```
 
 <br />
@@ -82,26 +82,17 @@ $ cd soft-ui-dashboard-django
 > 👉 Install modules via `VENV`  
 
 ```bash
-$ virtualenv env
-$ source env/bin/activate
-$ pip install -r requirements.txt
+$ python -m venv env
+$ .\env\Scripts\Activate
 ```
 
 <br />
 
-> 👉 Set Up Database
+
+> 👉 Performing the migration
 
 ```bash
-$ python manage.py makemigrations
 $ python manage.py migrate
-```
-
-<br />
-
-> 👉 Create the Superuser
-
-```bash
-$ python manage.py createsuperuser
 ```
 
 <br />
