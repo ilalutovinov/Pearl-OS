@@ -8,7 +8,7 @@
 # Project: Peral OS - Arduino UNO Integration with Raspberry Pi
 
 
-## :video_game: About Playvia
+## :video_game: About Peral OS
 
 Welcome to Playvia! This project aims to create a platform where gamers, programmers, and entrepreneurs can come together for gaming, learning, and collaborative development.
 
