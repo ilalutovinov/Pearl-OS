@@ -68,46 +68,7 @@
 - Automation and real-time device status monitoring.
 - A flexible system supporting extensions and the addition of new sensors or actuators.
 
-## Quick start
-
-> 👉 Download the code  
-
-```bash
-$ https://github.com/ilalutovinov/Pearl-OS.git
-$ cd Pearl-OS 
-```
-
-<br />
-
-> 👉 Install modules via `VENV`  
-
-```bash
-$ python -m venv env
-$ .\env\Scripts\Activate
-```
-
-<br />
-
-
-> 👉 Performing the migration
-
-```bash
-$ python manage.py migrate
-```
-
-<br />
-
-> 👉 Start the app
-
-```bash
-$ python manage.py runserver
-```
-
-At this point, the app runs at `http://127.0.0.1:8000/`. 
-
-<br />
-
-Project structure
+## Project structure
 ```bash
 Pearl OS/                        # Главная папка проекта
 │
@@ -154,3 +115,41 @@ Pearl OS/                        # Главная папка проекта
 ├── manage.py                     # Скрипт для управления проектом (миграции, запуск сервера и т.п.)
 
 ```
+## Quick start
+
+> 👉 Download the code  
+
+```bash
+$ https://github.com/ilalutovinov/Pearl-OS.git
+$ cd Pearl-OS 
+```
+
+<br />
+
+> 👉 Install modules via `VENV`  
+
+```bash
+$ python -m venv env
+$ .\env\Scripts\Activate
+```
+
+<br />
+
+
+> 👉 Performing the migration
+
+```bash
+$ python manage.py migrate
+```
+
+<br />
+
+> 👉 Start the app
+
+```bash
+$ python manage.py runserver
+```
+
+At this point, the app runs at `http://127.0.0.1:8000/`. 
+
+<br />
