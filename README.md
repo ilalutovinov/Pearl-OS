@@ -70,7 +70,7 @@
 
 
 
-## :video_game: Project structure
+Project structure
 ```bash
 Pearl OS/                        # Главная папка проекта
 │
