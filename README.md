@@ -5,10 +5,10 @@
 
 <br />
 
-Project: Peral OS - Arduino UNO Integration with Raspberry Pi
+# Project: Peral OS - Arduino UNO Integration with Raspberry Pi
 
 
-# # <img src="Documents/Pearl_Logo%20png.png" alt="Pearl_Logo png" width="50" style="vertical-align: middle"/> About Peral OS
+# <img src="Documents/Pearl_Logo%20png.png" alt="Pearl_Logo png" width="50" style="vertical-align: middle"/> About Peral OS
 
 **Peral OS** is a project aimed at creating an operating system that integrates the capabilities of **Arduino UNO** and **Raspberry Pi** into a unified platform for automation and smart home applications. The project's goal is to achieve full integration of hardware and software solutions, ensuring flexibility and scalability with the ability to control devices and collect data from various sensors.
 
