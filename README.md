@@ -5,8 +5,8 @@
 
 <br />
 
-# <img src="Documents/Pearl_Logo%20png.png" alt="Pearl_Logo png" width="150"/>
-# Project: Peral OS - Arduino UNO Integration with Raspberry Pi
+# <img src="Documents/Pearl_Logo%20png.png" alt="Pearl_Logo png" width="50" style="vertical-align: middle"/> Project: Peral OS - Arduino UNO Integration with Raspberry Pi
+
 
 # About Peral OS
 
