@@ -31,7 +31,6 @@
 - **Arduino UNO** will be used to collect data from sensors and control actuators (e.g., relays for managing outlets, lights, and other devices).
 
 - **Software** will include an operating system kernel, drivers for Arduino interaction, and a user interface for monitoring and managing the system.
-![Exchange.png)](Documents/Exchange.png)
 ## Technical Components of the Project
 ### 🛠 &nbsp;Languages and Tools :
 
