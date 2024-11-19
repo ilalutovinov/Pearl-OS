@@ -9,55 +9,52 @@
 
 
 ## :video_game: About Peral OS
-
 # Peral OS
 
-**Peral OS** — это проект, направленный на создание операционной системы, которая объединяет возможности **Arduino UNO** и **Raspberry Pi** в единую интегрированную платформу для автоматизации и создания умного дома. Проект ставит своей целью полную интеграцию аппаратных и программных решений, обеспечивая гибкость и масштабируемость, с возможностью управления устройствами и сбора данных с различных датчиков.
+**Peral OS** is a project aimed at creating an operating system that integrates the capabilities of **Arduino UNO** and **Raspberry Pi** into a unified platform for automation and smart home applications. The project's goal is to achieve full integration of hardware and software solutions, ensuring flexibility and scalability with the ability to control devices and collect data from various sensors.
 
-## Цели и задачи проекта
+## Project Goals and Objectives
 
-- **Интеграция Arduino UNO и Raspberry Pi**: Разработка программного обеспечения, которое позволяет Raspberry Pi взаимодействовать с Arduino UNO для управления устройствами и сбора данных с различных сенсоров через последовательное соединение.
+- **Integration of Arduino UNO and Raspberry Pi**: Development of software that enables Raspberry Pi to interact with Arduino UNO for controlling devices and collecting data from various sensors via serial communication.
   
-- **Полная интеграция с операционной системой**: Разработка полноценной операционной системы, которая будет работать на Raspberry Pi и поддерживать работу с подключённым Arduino UNO, включая управление устройствами (например, реле), чтение данных с сенсоров и передачу информации между устройствами.
+- **Full integration with the operating system**: Development of a complete operating system that will run on Raspberry Pi and support interaction with the connected Arduino UNO, including device control (such as relays), sensor data reading, and communication between devices.
 
-- **Программное обеспечение**: Создание драйверов и библиотек для упрощённой работы с Arduino в рамках интегрированной системы, а также разработка GUI-интерфейса для управления настройками и мониторинга системы.
+- **Software Development**: Creation of drivers and libraries to simplify working with Arduino within the integrated system, as well as developing a GUI interface for managing settings and monitoring the system.
 
-- **Автоматизация процессов**: Разработка системы автоматического реагирования на данные с сенсоров (например, включение/выключение устройств на основе температуры, влажности и других показателей) с возможностью удалённого управления через веб-интерфейс или мобильное приложение.
+- **Process Automation**: Development of an automatic response system based on sensor data (e.g., turning devices on/off based on temperature, humidity, and other factors) with the option for remote control via a web interface or mobile app.
 
-- **Гибкость и масштабируемость**: Обеспечение возможности подключения различных датчиков и исполнительных механизмов, а также возможность расширения системы за счёт дополнительных устройств и модулей.
+- **Flexibility and Scalability**: Ensuring the ability to connect various sensors and actuators, as well as expanding the system with additional devices and modules.
 
-## Архитектура решения
+## System Architecture
 
-- **Raspberry Pi** будет центральным узлом системы, обрабатывающим данные, предоставляющим веб-интерфейс и управляющим всеми подключёнными устройствами.
+- **Raspberry Pi** will act as the central hub of the system, processing data, providing a web interface, and controlling all connected devices.
   
-- **Arduino UNO** используется для сбора данных с датчиков и управления исполнительными механизмами (например, реле для управления розетками, лампами и другими устройствами).
+- **Arduino UNO** will be used to collect data from sensors and control actuators (e.g., relays for managing outlets, lights, and other devices).
 
-- **Программное обеспечение** включает ядро операционной системы, драйверы для взаимодействия с Arduino, а также пользовательский интерфейс для мониторинга и управления системой.
+- **Software** will include an operating system kernel, drivers for Arduino interaction, and a user interface for monitoring and managing the system.
 
-## Технические компоненты проекта
+## Technical Components of the Project
 
-- **Аппаратные компоненты**:
+- **Hardware Components**:
   - Raspberry Pi
   - Arduino UNO
-  - Датчики (температуры, влажности, движения и другие)
-  - Реле для управления устройствами
-  - Модули связи (например, Wi-Fi или Bluetooth)
+  - Sensors (temperature, humidity, motion, and others)
+  - Relays for controlling devices
+  - Communication modules (e.g., Wi-Fi or Bluetooth)
 
-- **Программные компоненты**:
+- **Software Components**:
   - Python, C/C++
-  - Библиотеки для работы с Arduino (например, Firmata)
-  - GUI-интерфейс на базе Flask или Django для управления системой
-  - Системы уведомлений и аналитики данных
+  - Arduino libraries (e.g., Firmata)
+  - GUI interface based on Flask or Django for system management
+  - Notification systems and data analytics
 
-## Ожидаемые результаты
+## Expected Outcomes
 
-- Полностью интегрированная платформа, где Raspberry Pi и Arduino работают как единое целое.
-- Возможность удалённого управления системой через веб-интерфейс или мобильное приложение.
-- Автоматизация и контроль за состоянием устройств в реальном времени.
-- Гибкая система, поддерживающая расширения и добавление новых сенсоров или исполнительных механизмов.
+- A fully integrated platform where Raspberry Pi and Arduino work together as a unified system.
+- The ability to remotely control the system via a web interface or mobile app.
+- Automation and real-time device status monitoring.
+- A flexible system supporting extensions and the addition of new sensors or actuators.
 
-
----
 
 ### 🛠 &nbsp;Languages and Tools :
 
