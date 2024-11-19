@@ -5,9 +5,8 @@
 
 <br />
 
-# ![Pearl_Logo png](Documents/Pearl_Logo%20png.png)  
+# <img src="Documents/Pearl_Logo%20png.png" alt="Pearl_Logo png" width="150"/>
 # Project: Peral OS - Arduino UNO Integration with Raspberry Pi
-
 
 # About Peral OS
 
